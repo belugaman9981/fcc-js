@@ -4,3 +4,12 @@ var number = 5; // in-line comment
 d
 d
 d
+sdfas
+
+dsaf
+vczx
+
+
+multi-line comment */
+
+number - 9;
