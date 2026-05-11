@@ -6,3 +6,6 @@ var list = []; // in-line comment
 
 multi-line comment */
 
+/* Data Types: 
+undefined, null, boolean, string, symbol, number, and object
+*/
