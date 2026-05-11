@@ -18,3 +18,7 @@ name = 8
 let samy = "sam..."
 
 const pi = 3.14
+
+
+var a;
+var b = 2;
