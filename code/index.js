@@ -33,9 +33,9 @@ var a = 9;
 
 
 // Initialize these three variables
-var a;
-var b;
-var c;
+var a = 5;
+var b = 10;
+var c = "I'm a";
 
 // Do not change code below this line
 a = a + 1;
