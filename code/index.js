@@ -1,8 +1,6 @@
-var list = []; // in-line comment
+var list = []; // in-line comment 
 
 /* this is a
-
-
 
 multi-line comment */
 
@@ -29,3 +27,5 @@ b = a;
 
 
 console.log(a)
+
+
