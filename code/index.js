@@ -44,11 +44,11 @@ c = c +" String!"
 
 
 // Declaraitons
-var StUdLyCapVaR;
+var studlyCapVar;
 var properCamelCase;
-var TitleCaseOver;
+var titleCaseOver;
 
 // Assignments
-STUDLYCAPVAR = 10;
-PRoperCAmelCAse = "A String";
-tITLECASEOVER = 9000;
+studlyCapVar = 10;
+properCamelCase = "A String";
+titleCaseOver = 9000;
