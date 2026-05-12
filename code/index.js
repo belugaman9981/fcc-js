@@ -30,7 +30,6 @@ console.log(a)
 
 var a = 9;
 
-
 // Initialize these three variables
 var a = 5;
 var b = 10;
