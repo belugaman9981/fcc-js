@@ -42,3 +42,13 @@ a = a + 1;
 b = b + 5;
 c = c +" String!"
 
+
+// Declaraitons
+var StUdLyCapVaR;
+var properCamelCase;
+var TitleCaseOver;
+
+// Assignments
+STUDLYCAPVAR = 10;
+PRoperCAmelCAse = "A String";
+tITLECASEOVER = 9000;
