@@ -153,6 +153,6 @@ var anAdjective = "awesome!"
 var ourStr = "school is not "
 ourStr += anAdjective;
 
-var someAdjective;
+var someAdjective; // this is different then the one on line 152
 var myStr = "Learning to code is ";
 
