@@ -143,6 +143,7 @@ console.log(myStr3); // Hello World
 
 // 27. CONSTRUCTING STRINGS WITH VARIABLES (0:29:01)
 var name = "Matt";
-var fullGreeting = "Hello, " + name + "!";
+var fullGreeting = "Hello, " + name + "and I am well!";
+
 console.log(fullGreeting); // Hello, Matt!
 
