@@ -147,3 +147,12 @@ var fullGreeting = "Hello, " + name + "and I am well!";
 
 console.log(fullGreeting); // Hello, Matt!
 
+// 28. Appending Variables to Strings (0:30:14)
+
+var anAdjective = "awesome!"
+var ourStr = "school is not "
+ourStr += anAdjective;
+
+var someAdjective;
+var myStr = "Learning to code is ";
+
