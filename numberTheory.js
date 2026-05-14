@@ -24,3 +24,4 @@ rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
   numbers = parseInt(numbers);
   askNumber(0, numbers);
 });
+
