@@ -7,17 +7,20 @@ const rl = readline.createInterface({
   output: process.stdout
 })
 
-rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
-  
-  for (let i = 0; i < numbers; i++) {
-
-    rl.question("Enter a Number: ", function(num) {
-      numList.push(num);
-    })
+function askNumber(i, numbers) {
+  if (i >= numbers) {
+    console.log("The List of Numbers You Entered is: " + numList);
+    rl.close();
+    return;
   }
-  
-  console.log("The List of Numbers You Entered is: " + numList);
-  
-  rl.close();
 
+  rl.question("Enter a Number: ", function(num) {
+    numList.push(num);
+    askNumber(i + 1, numbers);
+  });
+}
+
+rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
+  numbers = parseInt(numbers);
+  askNumber(0, numbers);
 });
