@@ -5,7 +5,7 @@ numList = [];
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
-})
+});
 
 function askNumber(i, numbers) {
   if (i >= numbers) {
