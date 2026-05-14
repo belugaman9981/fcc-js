@@ -11,9 +11,14 @@ rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
   
   for (let i = 0; 1 <= numbers; i++) {
 
+    rl.question("Enter a Number: ", function(num) {
+      numList.push(num);
+    }
 
+  else {
+    console.log("The List of Numbers You Entered is: " + numList);
   }
   
   rl.close();
-});
-
+  
+}});
