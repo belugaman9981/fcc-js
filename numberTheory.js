@@ -1,18 +1,17 @@
 const readline = require('readline');
 
+numList = [];
+
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 })
 
-rl.question("Enter a number: ", function(number) {
+rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
   
-  if (number % 2 == 0) {
-    console.log("Your Number is Even.");
+  for (let i = 0; 1 <= numbers; i++) {
 
-  } else {
-    console.log("The Number is Odd.")
-  
+
   }
   
   rl.close();
