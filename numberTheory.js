@@ -9,16 +9,15 @@ const rl = readline.createInterface({
 
 rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
   
-  for (let i = 0; 1 <= numbers; i++) {
+  for (let i = 0; i < numbers; i++) {
 
     rl.question("Enter a Number: ", function(num) {
       numList.push(num);
-    }
-
-  else {
-    console.log("The List of Numbers You Entered is: " + numList);
+    })
   }
   
-  rl.close();
+  console.log("The List of Numbers You Entered is: " + numList);
   
-}});
+  rl.close();
+
+});
