@@ -1,4 +1,4 @@
-const readline = require();
+const readline = require('readline');
 
 const rl = readline.createInterface({
   input: process.stdin,
@@ -8,10 +8,10 @@ const rl = readline.createInterface({
 rl.question("Enter a number: ", function(number) {
   
   if (number % 2 == 0) {
-    console.log("Your Number is even.");
+    console.log("Your Number is Even.");
 
   } else {
-    console.log("The number is odd.")
+    console.log("The Number is Odd.")
   
   }
   
