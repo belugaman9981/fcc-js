@@ -25,4 +25,3 @@ rl.question("Enter a How Many Numbers you Want: ", function(numbers) {
   askNumber(0, numbers);
 });
 
-
